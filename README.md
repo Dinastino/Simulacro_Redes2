@@ -46,3 +46,12 @@ Se quita el ultimo bit dado que es el del broad cast y le sumas 62 al 192 = ***1
 
 - Dado el host 172.18.171.190/23. El prefijo /23 indica que los primeros 23 bits son de red, dejando 9 bits para host. Esto significa que la subred agrupa dos bloques contiguos de direcciones de clase C (cada uno de 256 direcciones). Para determinar a qué bloque pertenece el host, observamos el tercer octeto (171). Como el bloque /23 cubre de 2 en 2 en el tercer octeto (porque 256 - 254 = 2), buscamos el múltiplo de 2 más cercano hacia abajo: 170. Por lo tanto, el host 172.18.171.190 pertenece a la subred 172.18.170.0/23,  hasta 172.18.171.255.
 
+---
+
+## Pregunta 5: Número de Subredes Necesarias
+Explica cómo se determina el número de subredes disponibles utilizando la fórmula:
+
+$$\text{Nº de subredes} = 2^s$$
+
+Donde s es el número de bits prestados al identificador de subred. Aplica este concepto a un escenario en el que se requieren al menos 4 subredes para segmentar una red.
+
