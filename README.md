@@ -1,5 +1,7 @@
 # Simulacro_Redes2
 
+Link repo: https://github.com/Dinastino/Simulacro_Redes2.git
+
 ## Pregunta 1: Cálculo de Ruta Más Corta
 **a)**  Explica brevemente el funcionamiento del Algoritmo de Dijkstra para encontrar la ruta más corta entre dos nodos en un grafo ponderado.
 
