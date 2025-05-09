@@ -55,3 +55,5 @@ $$\text{Nº de subredes} = 2^s$$
 
 Donde s es el número de bits prestados al identificador de subred. Aplica este concepto a un escenario en el que se requieren al menos 4 subredes para segmentar una red.
 
+- 
+
